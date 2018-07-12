@@ -679,7 +679,7 @@ header.video video {
 
 @media (min-width: 768px) {
   .portfolio-grid .mix {
-    width: 31%;
+    width: 45%;
     margin: 1%;
   }
 }
