@@ -71,7 +71,7 @@ $(document).ready(function() {
   // Owl Carousel Settings
   $(".team-carousel").owlCarousel({
     items: 3,
-    navigation: true,
+    navigation: false,
     pagination: false,
     navigationText: [
       "<i class='fa fa-angle-left'></i>",
