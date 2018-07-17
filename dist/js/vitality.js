@@ -72,7 +72,7 @@ $(document).ready(function() {
   $(".team-carousel").owlCarousel({
     items: 3,
     navigation: false,
-    pagination: false,
+    pagination: true,
     navigationText: [
       "<i class='fa fa-angle-left'></i>",
       "<i class='fa fa-angle-right'></i>"
