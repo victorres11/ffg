@@ -623,10 +623,11 @@ header.video video {
 
 .value-prop-quadrant h2{
   color: #4399b7;
+  text-align: left;
 }
 
 .value-prop-quadrant .bullet-points{
-  padding-left: 8rem;
+  padding-left: 2rem;
   text-align: left;
 
 }
