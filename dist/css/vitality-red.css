@@ -405,6 +405,7 @@ header.video video {
   font-weight: 300;
   line-height: 32px;
   display: block;
+  background-color: rgba(0, 0, 0, .4);
 }
 
 @media (min-width: 768px) {
