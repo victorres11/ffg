@@ -621,6 +621,16 @@ header.video video {
   max-width: 80%;
 }
 
+.value-prop-quadrant h2{
+  color: #4399b7;
+}
+
+.value-prop-quadrant .bullet-points{
+  padding-left: 8rem;
+  text-align: left;
+
+}
+
 .portfolio-grid .mix {
   float: left;
   overflow: hidden;
