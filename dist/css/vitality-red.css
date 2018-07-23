@@ -616,6 +616,10 @@ header.video video {
   margin: 0;
 }
 
+.value-prop-quadrant img{
+  max-width: 80%;
+}
+
 .portfolio-grid .mix {
   float: left;
   overflow: hidden;
