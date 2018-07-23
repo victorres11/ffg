@@ -617,8 +617,8 @@ header.video video {
   margin: 0;
 }
 
-.value-prop-quadrant img{
-  max-width: 80%;
+.value-prop-quadrant {
+  padding-left: 15%;
 }
 
 .value-prop-quadrant h2{
