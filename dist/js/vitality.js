@@ -70,7 +70,7 @@ $(document).ready(function() {
 
   // Owl Carousel Settings
   $(".team-carousel").owlCarousel({
-    items: 3,
+    items: 4,
     navigation: false,
     pagination: true,
     navigationText: [
