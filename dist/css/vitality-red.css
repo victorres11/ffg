@@ -1011,12 +1011,7 @@ button:hover {
   border: 0;
   border-radius: 0;
   background-color: #222;
-}
-
-@media screen and (max-width: 600px) {
-  .btn-full-width{
-    font-size: 16px;
-  }
+  white-space: pre-wrap;
 }
 
 .btn-full-width:hover {
