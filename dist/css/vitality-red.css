@@ -207,6 +207,12 @@ header.masthead {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  header.masthead {
+    background-position: center;
+  }
+}
+
 header.masthead .masthead-img {
   max-width: 150px;
   max-height: 150px;
@@ -620,6 +626,7 @@ header.video video {
 }
 
 .value-prop-quadrant {
+  /*padding-left: 15%;*/
   padding: 0% 0% 0% 5%;
   width: 85%;
   margin: auto;
@@ -929,6 +936,12 @@ footer.footer {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   footer.footer {
     background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    background-position: center;
   }
 }
 
