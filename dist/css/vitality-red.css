@@ -365,6 +365,7 @@ header.video video {
 
 .team-carousel .item .team-caption p {
   margin: 0;
+  font-size: 14px;
 }
 
 .team-carousel .item .team-caption .list-team-social {
@@ -619,7 +620,9 @@ header.video video {
 }
 
 .value-prop-quadrant {
-  padding-left: 15%;
+  padding: 0% 0% 0% 5%;
+  width: 85%;
+  margin: auto;
 }
 
 .value-prop-quadrant h2{
