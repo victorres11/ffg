@@ -1012,6 +1012,12 @@ button:hover {
   background-color: #222;
 }
 
+@media screen and (max-width: 600px) {
+  .btn-full-width{
+    font-size: 16px;
+  }
+}
+
 .btn-full-width:hover {
   color: white;
   /*background-color: #EF4035;*/
