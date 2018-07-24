@@ -783,6 +783,12 @@ header.video video {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  header.masthead {
+    background-position: right;
+  }
+}
+
 .pricing .pricing-item {
   z-index: 1;
   margin-bottom: 30px;
