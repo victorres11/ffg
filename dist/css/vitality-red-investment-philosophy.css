@@ -456,6 +456,7 @@ header.video video {
 
 .services .media .media-body ul li {
   margin-bottom: 10px;
+  list-style-position: outside;
 }
 
 @media (min-width: 992px) {
