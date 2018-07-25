@@ -376,6 +376,10 @@ header.video video {
   font-size: 14px;
 }
 
+.black-link-text {
+  color: rgb(33, 37, 41)
+}
+
 .team-carousel .item .team-caption .list-team-social {
   margin-top: 5px;
 }
