@@ -1121,3 +1121,10 @@ a.text-primary:focus, a.text-primary:hover {
   /*transform: translate(-50%, -50%);*/
   text-align: center;
 }
+
+.disclaimer {
+  color: #948D8D;
+  background-color: #222;
+  margin-top: 0px;
+  padding: 25px !important;
+}
