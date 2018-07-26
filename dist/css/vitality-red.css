@@ -441,6 +441,13 @@ header.video video {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .call-to-action span.quote {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
 .services .media {
   margin-bottom: 30px;
 }
