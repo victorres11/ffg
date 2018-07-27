@@ -137,7 +137,7 @@ h6 {
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link {
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #222;
+  color: white;
 }
 
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link:focus, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
