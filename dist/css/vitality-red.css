@@ -1033,7 +1033,7 @@ button:hover {
 .btn-full-width {
   font-size: 26px;
   font-weight: 200;
-  padding: 50px 0;
+  padding: 25px 0;
   letter-spacing: normal;
   text-transform: none;
   color: white;
@@ -1134,4 +1134,9 @@ a.text-primary:focus, a.text-primary:hover {
   background-color: #222;
   margin-top: 0px;
   padding: 25px !important;
+}
+
+.mmb-cta img {
+  height: 86px;
+  padding-left: 10px;
 }
