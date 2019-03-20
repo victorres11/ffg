@@ -1044,7 +1044,7 @@ button:hover {
 }
 
 .bar-full-width {
-  font-size: 26px;
+  font-size: 10px;
   font-weight: 200;
   padding: 5px 0;
   letter-spacing: normal;
@@ -1156,6 +1156,6 @@ a.text-primary:focus, a.text-primary:hover {
 
 .affiliations-bar img {
   height: 66px;
-  padding: 0px;
+  padding: 10px;
   font-size: 4px !important;
 }
