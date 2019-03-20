@@ -1043,6 +1043,19 @@ button:hover {
   white-space: pre-wrap;
 }
 
+.bar-full-width {
+  font-size: 26px;
+  font-weight: 200;
+  padding: 5px 0;
+  letter-spacing: normal;
+  text-transform: none;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  background-color: #222;
+  white-space: pre-wrap;
+}
+
 .btn-full-width:hover {
   color: white;
   /*background-color: #EF4035;*/
@@ -1139,4 +1152,10 @@ a.text-primary:focus, a.text-primary:hover {
 .mmb-cta img {
   height: 86px;
   padding-left: 10px;
+}
+
+.affiliations-bar img {
+  height: 66px;
+  padding: 0px;
+  font-size: 4px !important;
 }
