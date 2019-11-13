@@ -210,8 +210,9 @@ header.masthead {
 
 
 header.masthead .masthead-img {
-  max-width: 150px;
-  max-height: 150px;
+  /*max-width: 150px;*/
+  /*max-height: 700px;*/
+  /*padding-top: 120px;*/
 }
 
 header.masthead .masthead-title {
@@ -267,8 +268,8 @@ header.masthead .scroll-down .btn:active, header.masthead .scroll-down .btn:focu
     padding-bottom: 0;
   }
   header.masthead .masthead-img {
-    max-width: 250px;
-    max-height: 250px;
+    max-height: 700px;
+    padding-top: 120px;
   }
   header.masthead .masthead-title {
     font-size: 5rem;
