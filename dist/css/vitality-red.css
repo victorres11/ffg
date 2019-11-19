@@ -1159,4 +1159,5 @@ a.text-primary:focus, a.text-primary:hover {
   height: 66px;
   padding: 10px;
   font-size: 4px !important;
+  margin: 10px;
 }
