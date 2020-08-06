@@ -973,12 +973,15 @@
                   <div id="jsTeamInterests" style="font-size: 12px; margin-bottom: 20px;"></div>
                 </div>
                 <div class="col-md-5 col-sm-12 col-12" style="color:black;">
-                  <div style="font-weight: 900">BIOGRAPHY</div>
+                  <div style="font-weight: 900">Biography</div>
                   <div id="jsTeamBio" style="font-size: 14px;"></div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-12" style="color:black;">
-                  <div style="font-weight: 900">CORE BELIEFS IN SERVING CLIENTS</div>
+                  <div style="font-weight: 900">Core Beliefs In Serving Clients</div>
                   <div id="jsTeamBeliefs" style="font-size: 12px;"></div>
+                  <div style="font-weight: 900; padding-top: 25px">Contact Info:</div>
+                  <div id="jsTeamContactInfo" style="font-size: 12px;"></div>
+
                 </div>
               </div>
             </div>
@@ -1098,6 +1101,7 @@
         var beliefs = record.get('Core Beliefs')
         var note = record.get('Note')
         var image = record.get('Image')
+        var contact = record.get('Contact')
         
         $(`#jsTeamSection`).append(
           `<div class="col-md-4 col-sm-6 col-6 text-left selectable teamContainer" onclick="TeamModal('${record.id}')">
@@ -1134,6 +1138,7 @@
     $(`#jsTeamInterests`).html(``)
     $(`#jsTeamBio`).html(``)
     $(`#jsTeamBeliefs`).html(``)
+    $(`#jsTeamContactInfo`).html(``)
 
     var base = new Airtable({apiKey: 'key6Ee0qd8r4PnPzf'}).base('appzIApZj33XsFFc9');
 
@@ -1153,6 +1158,13 @@
           var interests = record.get('Interests')
           interests = interests.split(`%`)
           var beliefs = record.get('Core Beliefs')
+          var contact = record.get('Contact')
+          if (contact !== undefined) {
+              contact = contact.split(`%`)
+          } else {
+              contact = ``
+          }
+
           if (beliefs !== undefined){
             beliefs = beliefs.split(`%`)
           }else{
@@ -1176,6 +1188,9 @@
           for (c=0; c<beliefs.length; c++){
             $(`#jsTeamBeliefs`).append(`<div>${beliefs[c]}</div><br>`)
           }
+        for (e=0; e<contact.length; e++){
+            $(`#jsTeamContactInfo`).append(`<div>${contact[e]}</div><br>`)
+        }
           $(`#jsTeamModal`).modal(`show`)
     });
   }
