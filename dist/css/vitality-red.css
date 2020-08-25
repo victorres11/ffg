@@ -331,7 +331,8 @@ header.video video {
   header.video video {
     display: none;
   }
-  a {
+
+  .media a{
     padding: 20px 75px;
   }
 }
